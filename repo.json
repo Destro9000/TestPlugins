@@ -1,0 +1,8 @@
+{
+  "name": "Spektre's Repo",
+  "description": "This Repo Contains italian providers",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Destro9000/TestPlugins/builds/plugins.json"
+  ]
+}
