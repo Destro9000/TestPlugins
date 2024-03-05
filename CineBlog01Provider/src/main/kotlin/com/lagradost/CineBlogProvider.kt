@@ -18,7 +18,7 @@ class CineBlog01Provider : MainAPI() {
         TvType.Movie,
     )
     override val mainPage = mainPageOf(
-        Pair("$mainUrl/cinema/page/", "Film Cinema"),
+        Pair("$mainUrl/film-al-cinema/", "Film Cinema"),
         Pair("$mainUrl/sub-ita/page/", "Film Sub-ita")
     )
 
