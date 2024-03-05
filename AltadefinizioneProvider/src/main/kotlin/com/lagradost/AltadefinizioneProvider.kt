@@ -10,6 +10,7 @@ import okhttp3.FormBody
 import org.jsoup.nodes.Element
 
 
+
 class AltadefinizioneProvider : MainAPI() {
     override var lang = "it"
     override var mainUrl = "https://altadefinizione.exposed"
