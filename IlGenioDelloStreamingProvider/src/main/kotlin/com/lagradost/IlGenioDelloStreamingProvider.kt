@@ -122,7 +122,6 @@ class IlGenioDelloStreamingProvider : MainAPI() {
         val type =
             if (document.select("div.seasons-wraper").isNotEmpty()) TvType.TvSeries
             else TvType.Movie
--
         val title =
             fixTitle(document.selectFirst("div.data > h1"))
         val description =
