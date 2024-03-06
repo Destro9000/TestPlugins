@@ -57,7 +57,7 @@ class AltadefinizioneProvider : MainAPI() {
             .build()
             
         val doc = app.post(
-            "$mainUrl/index.php",
+            "$mainUrl/",
             requestBody = body
         ).document
 
