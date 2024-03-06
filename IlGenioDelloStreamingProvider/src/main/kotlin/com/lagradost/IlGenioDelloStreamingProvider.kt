@@ -31,7 +31,7 @@ class IlGenioDelloStreamingProvider : MainAPI() {
         mainPageOf(
             Pair("$mainUrl/popular-movies/page/", "Film Popolari"),
             Pair("$mainUrl/the-most-voted/page/", "I più votati"),
-            Pair("$mainUrl/category/serie-tv/page/", "Serie Tv"),
+            
             
 
         )
@@ -122,7 +122,7 @@ class IlGenioDelloStreamingProvider : MainAPI() {
         val type =
             if (document.select("div.seasons-wraper").isNotEmpty()) TvType.TvSeries
             else TvType.Movie
-
+-
         val title =
             fixTitle(document.selectFirst("div.data > h1"))
         val description =
