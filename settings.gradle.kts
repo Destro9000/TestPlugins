@@ -8,7 +8,11 @@ include(
     "ExampleProvider",
     "AltadefinizioneProvider",
     "CineBlog01Provider",
-    "CineBlogProvider"
+    "CineBlogProvider",
+    "CasaCinemaProvider",
+    "CalcioStreamingProvider",
+    "EurostreamingProvider",
+    "IlGenioDelloStreamingProvider",
 
 
 )

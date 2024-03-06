@@ -9,7 +9,7 @@ import org.jsoup.nodes.Element
 
 class CineBlog01Provider : MainAPI() {
     override var lang = "it"
-    override var mainUrl = "https://cb01.care"
+    override var mainUrl = "https://cb01.contact"
     override var name = "CineBlog01"
     override val hasMainPage = true
     override val hasChromecastSupport = true
@@ -18,7 +18,7 @@ class CineBlog01Provider : MainAPI() {
         TvType.Movie,
     )
     override val mainPage = mainPageOf(
-        Pair("$mainUrl/film-al-cinema/", "Film Cinema"),
+        Pair("$mainUrl/cinema/page/", "Film Cinema"),
         Pair("$mainUrl/sub-ita/page/", "Film Sub-ita")
     )
 
