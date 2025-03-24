@@ -140,7 +140,7 @@ class IHaveNoTvProvider : MainAPI() {
             container?.select(".episode")?.map { ep ->
                 val thumb = ep.selectFirst("img")!!.attr("src")
 
-                val epLink = fixUrl(ep.selectFirst("a[title]")!!.attr("href"))
+                val epLink = fixUrl(ep.selectFirst("a")!!.attr("href"))
                 val (season, epNum) = if (ep.selectFirst(".episodeMeta > strong") != null &&
                     ep.selectFirst(".episodeMeta > strong")!!.html().contains("S")
                 ) {
