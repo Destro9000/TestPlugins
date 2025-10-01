@@ -15,6 +15,7 @@ include(
     "IlGenioDelloStreamingProvider",
     "IHaveNoTvProvider",
     "Cinezone",
+    "Ultima",
 
 
 )
