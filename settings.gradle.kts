@@ -14,7 +14,7 @@ include(
     "EurostreamingProvider",
     "IlGenioDelloStreamingProvider",
     "IHaveNoTvProvider",
-    "Cinezone",
+    "CinezoneProvider",
     "Ultima",
 
 
